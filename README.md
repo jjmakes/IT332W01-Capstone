@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 The user will need `AmazonS3FullAccess` permissions to create and upload to the bucket.
 
-3. Create a .env file at the project's root, and store the credentials as follows:
+3. Create a `.env` file at the project's root, and store the credentials as follows:
 
 ```
 AWS_ACCESS_KEY_ID=<YOUR_ACCESS_KEY_ID>
