@@ -8,6 +8,10 @@ Members:
 - Sejal Chavda
 - John Makely
 
+This project is a demonstration of how a simple piece of software that can be used to defend against ransomware attacks.
+
+The program uses a python script to backup folders and files that exist beneath it. The files will be compressed and uploaded to an AWS S3 Bucket. From here, one can download the file backups in the event of a ransomware attack.
+
 ## Getting Started
 
 1. Place the contents of this folder into the directory you intend to backup.
@@ -53,4 +57,16 @@ Add the following via `crontab -e`, replacing `path/to/script.py` with the path 
 
 ```
 * * * * * /usr/bin/python3 /path/to/script.py
+```
+
+### Windows
+
+```
+
+```
+
+### Mac
+
+```
+
 ```
