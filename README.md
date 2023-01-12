@@ -8,7 +8,7 @@ Members:
 - Sejal Chavda
 - John Makely
 
-This project is a demonstration of how a simple piece of software that can be used to defend against ransomware attacks.
+This project is a demonstration of a simple light-weight script that can be used to defend against ransomware attacks.
 
 The program uses a python script to backup folders and files that exist beneath it. The files will be compressed and uploaded to an AWS S3 Bucket. From here, one can download the file backups in the event of a ransomware attack.
 
